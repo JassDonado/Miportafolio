@@ -12,7 +12,7 @@ export default function Header() {
     <div className="fixed top-4 left-0 w-full z-50 px-4 md:px-8">
       <header className="mx-auto flex max-w-6xl items-center justify-between rounded-2xl border border-white/10 bg-white/10 px-6 py-4 backdrop-blur-lg shadow-lg">
         <a href="#home" className="text-2xl font-bold tracking-tight text-white">
-          Jasseff <span className="text-cyan-400">Dev</span>
+          Jasseff <span className="text-violet-800">Dev</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-200">
@@ -24,7 +24,7 @@ export default function Header() {
           </a>
           <a
             href="#contact"
-            className="rounded-full bg-cyan-400 px-4 py-2 font-semibold text-black transition hover:scale-105"
+            className="rounded-full bg-violet-800 px-4 py-2 font-semibold text-white transition hover:scale-105"
           >
             Contáctame
           </a>
@@ -51,7 +51,7 @@ export default function Header() {
             <a
               href="#contact"
               onClick={closeMenu}
-              className="rounded-full bg-cyan-400 px-4 py-2 text-center font-semibold text-black"
+              className="rounded-full bg-violet-800 px-4 py-2 text-center font-semibold text-white"
             >
               Contáctame
             </a>
