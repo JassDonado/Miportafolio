@@ -14,8 +14,9 @@ export default function Body() {
               Jasseff <span className="text-violet-800">Dev</span>
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-300 md:text-xl">
-                Desarrollador Web & Especialista en TI
-                Creo soluciones digitales modernas, combinando
+                Desarrollador Web & Especialista en TI.
+                <br />
+                Diseño soluciones digitales modernas, combinando
                 desarrollo web con experiencia en soporte y sistemas.
             </p>
           </div>
@@ -35,18 +36,28 @@ export default function Body() {
           <div className="mx-auto max-w-5xl">
             <h2 className="mb-6 text-4xl font-bold">Sobre mí</h2>
             <p className="text-lg leading-8 text-gray-300">
-              Soy desarrollador web y técnico en sistemas, con experiencia
-             en soporte TI, redes y mantenimiento de infraestructura
+              Soy desarrollador web y tecnologo en sistemas, con experiencia
+              en soporte TI, redes y mantenimiento de infraestructura
               tecnológica.
 
-                Actualmente trabajo en soporte N2, gestionando incidentes
-                 y asegurando la continuidad de los servicios. 
-                 Complemento esta experiencia con desarrollo web, creando
+                  Actualmente trabajo en soporte N2, gestionando incidentes
+                  y asegurando la continuidad de los servicios. 
+                  Complemento esta experiencia con desarrollo web, creando
                   soluciones digitales modernas, eficientes y enfocadas
-                   en el usuario final.
+                  en el usuario final.
 
-                Me apasiona la tecnología, el aprendizaje continuo y la construcción
-                 de soluciones que generen impacto..
+                  Me apasiona la tecnología, el aprendizaje continuo y la construcción
+                  de soluciones que generen impacto..
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <div className="mx-auto max-w-5xl">
+            <h2 className="mb-6 text-4xl font-bold">Lenguajes</h2>
+            <p className="text-lg leading-8 text-gray-300">
+              Desarrollo web: HTML, CSS, JavaScript, React, Next.js.
+
             </p>
           </div>
         </section>
@@ -68,6 +79,11 @@ export default function Body() {
               Puedes agregar aquí tu correo, GitHub, LinkedIn o un formulario
               de contacto.
             </p>
+              <ul>
+                <li>tiktok</li>
+                <li>instagram</li>
+                <li>linkedin</li>
+              </ul>
           </div>
         </section>
       </main>
