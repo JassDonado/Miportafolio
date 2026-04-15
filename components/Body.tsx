@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Retrato from "@/imagenes/Retrato.png"
+import TypewriterTitle from "./TypewriterTitle"
 
 export default function Body() {
     return (
@@ -10,9 +11,7 @@ export default function Body() {
           className="flex min-h-screen items-center justify-between px-6 pt-28 gap-12"
         >
           <div className="max-w-2xl flex-1">
-            <h1 className="text-5xl font-bold md:text-7xl">
-              Jasseff <span className="text-violet-800">Dev</span>
-            </h1>
+            <TypewriterTitle />
             <p className="mt-6 text-lg leading-8 text-gray-300 md:text-xl">
                 Desarrollador Web & Especialista en TI.
                 <br />
@@ -20,7 +19,8 @@ export default function Body() {
                 desarrollo web con experiencia en soporte y sistemas.
             </p>
           </div>
-          <div className="flex-1 flex justify-center">
+
+          <div className="flex-1 flex justify-center animate-fade-in-up">
             <Image 
               src={Retrato} 
               alt="Jasseff Dev" 
@@ -30,6 +30,7 @@ export default function Body() {
               priority
             />
           </div>
+          
         </section>
 
         <section id="about" className="px-6 py-24 md:px-10">
