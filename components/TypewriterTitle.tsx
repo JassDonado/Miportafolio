@@ -10,7 +10,7 @@ export default function TypewriterTitle() {
     if (displayText.length < fullText.length) {
       const timer = setTimeout(() => {
         setDisplayText(fullText.slice(0, displayText.length + 1));
-      }, 100);
+      }, 150);
       return () => clearTimeout(timer);
     }
   }, [displayText]);
