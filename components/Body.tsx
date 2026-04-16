@@ -9,7 +9,15 @@ export default function Body() {
         const { ref: aboutRef, inView: aboutInView } = useInView();
     return (
 
-        <main className="min-h-screen bg-[#0a0a0a] text-white">
+        <main 
+          className="relative min-h-screen bg-[#0a0a0a] text-white overflow-hidden"
+          style={{
+            backgroundImage: 'url(/background-splash.svg)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundAttachment: 'fixed'
+          }}
+        >
         <section
           id="home"
           className="flex min-h-screen items-center justify-between px-6 pt-28 gap-12"
