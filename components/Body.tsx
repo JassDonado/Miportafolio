@@ -10,12 +10,12 @@ export default function Body() {
     return (
 
         <main 
-          className="relative min-h-screen bg-[#0a0a0a] text-white overflow-hidden"
+          className="relative min-h-screen bg-[#1a1a1a] text-white overflow-hidden"
           style={{
             backgroundImage: 'url(/background-splash.svg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-            backgroundAttachment: 'fixed'
+            backgroundAttachment: 'scroll'
           }}
         >
         <section
