@@ -10,7 +10,8 @@ export default function Header() {
 
   return (
     <div className="fixed top-4 left-0 w-full z-50 px-4 md:px-8">
-      <header className="mx-auto flex max-w-6xl items-center justify-between rounded-2xl border border-white/10 bg-white/10 px-6 py-4 backdrop-blur-lg shadow-lg">
+      <header className="mx-auto flex max-w-6xl items-center justify-between rounded-2xl border
+       border-white/10 bg-white/10 px-6 py-4 backdrop-blur-lg shadow-lg">
         <a href="#home" className="text-2xl font-bold tracking-tight text-white transition hover:scale-110">
           Jasseff <span className="text-violet-800">Dev</span>
         </a>

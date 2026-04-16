@@ -10,7 +10,7 @@ export default function Body() {
           id="home"
           className="flex min-h-screen items-center justify-between px-6 pt-28 gap-12"
         >
-          <div className="max-w-2xl flex-1">
+          <div className="max-w-2xl flex-1 animate-fade-in-left">
             <TypewriterTitle />
             <p className="mt-6 text-lg leading-8 text-gray-300 md:text-xl">
                 Desarrollador Web & Especialista en TI.
@@ -20,7 +20,8 @@ export default function Body() {
             </p>
           </div>
 
-          <div className="flex-1 flex justify-center animate-fade-in-up">
+          <div className="flex-1 flex justify-center animate-fade-in-right">
+            
             <Image 
               src={Retrato} 
               alt="Jasseff Dev" 
