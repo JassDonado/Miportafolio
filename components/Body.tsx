@@ -1,8 +1,12 @@
+'use client';
+
 import Image from "next/image"
 import Retrato from "@/imagenes/Retrato.png"
 import TypewriterTitle from "./TypewriterTitle"
+import { useInView } from "@/hooks/UseInViev";
 
 export default function Body() {
+        const { ref: aboutRef, inView: aboutInView } = useInView();
     return (
 
         <main className="min-h-screen bg-[#0a0a0a] text-white">
@@ -35,7 +39,10 @@ export default function Body() {
         </section>
 
         <section id="about" className="px-6 py-24 md:px-10">
-          <div className="mx-auto max-w-5xl">
+          <div 
+            ref={aboutRef}
+            className={`mx-auto max-w-5xl transition-all duration-900 ${aboutInView ? "animate-slide-in-bottom" : "opacity-0"}`}
+          >
             <h2 className="mb-6 text-4xl font-bold">Sobre mí</h2>
             <p className="text-lg leading-8 text-gray-300">
               Soy desarrollador web y tecnologo en sistemas, con experiencia
