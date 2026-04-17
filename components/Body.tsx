@@ -49,7 +49,7 @@ export default function Body() {
         <section id="about" className="px-6 py-24 md:px-10">
           <div 
             ref={aboutRef}
-            className={`mx-auto max-w-5xl transition-all duration-900 ${aboutInView ? "animate-slide-in-bottom" : "opacity-0"}`}
+            className={`mx-auto max-w-5xl transition-all duration-2000 ${aboutInView ? "animate-slide-in-bottom" : "opacity-0"}`}
           >
             <h2 className="mb-6 text-4xl font-bold">Sobre mí</h2>
             <p className="text-lg leading-8 text-gray-300">
