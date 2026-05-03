@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Retrato from "@/imagenes/Retrato.png";
 import TypewriterTitle from "./TypewriterTitle";
+import SkillsGrid from "./SkillsGrid";
 import { useInView } from "@/hooks/UseInViev";
 
 export default function Body() {
@@ -53,7 +54,7 @@ export default function Body() {
             src={Retrato}
             alt="Jasseff Dev"
             className="rounded-full border-4 border-violet-800 shadow-lg"
-            width={280}
+            width={250}
             height={250}
             priority
           />
@@ -74,15 +75,13 @@ export default function Body() {
             Soy desarrollador web y tecnólogo en sistemas, con experiencia
             en soporte TI, redes y mantenimiento de infraestructura
             tecnológica.
-            <br />
-            <br />
+
             Actualmente laboro como soporte N2 en sistemas, gestionando
             incidentes y asegurando la continuidad de los servicios.
             Complemento esta experiencia con desarrollo web, creando
             soluciones digitales modernas, eficientes y enfocadas
             en el usuario final.
-            <br />
-            <br />
+
             Me apasiona la tecnología, el aprendizaje continuo y la construcción
             de soluciones que generen impacto.
           </p>
@@ -90,11 +89,9 @@ export default function Body() {
       </section>
 
       <section className="px-6 py-24 md:px-10">
-        <div className="mx-auto max-w-5xl">
-          <h2 className="mb-6 text-4xl font-bold">Lenguajes</h2>
-          <p className="text-lg leading-8 text-gray-300">
-            Desarrollo web: HTML, CSS, JavaScript, React, Next.js.
-          </p>
+        <div className="mx-auto max-w-7xl">
+          <h2 className="mb-12 text-4xl font-bold">Lenguajes & Tecnologías</h2>
+          <SkillsGrid />
         </div>
       </section>
 
